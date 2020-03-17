@@ -1,1 +1,17 @@
-Hello, World
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./dist/bundle.js" type="text/javascript"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.onload = () => {
+        const appElement = document.getElementById('application')
+        main(appElement)
+      }
+    </script>
+    <div id="application">
+    </div>
+  </body>
+</html>
